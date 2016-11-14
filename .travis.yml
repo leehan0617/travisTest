@@ -8,6 +8,5 @@ cache:
   directories:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
-script: ./gradlew check
 after_success:
   - bash <(curl -s https://codecov.io/bash)
