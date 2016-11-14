@@ -14,7 +14,7 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 .project
-.class
+*.class
 .settings/
 .gradle/
 .classpath
